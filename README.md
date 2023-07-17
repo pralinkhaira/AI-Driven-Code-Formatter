@@ -47,6 +47,14 @@ To use the AI-Driven Code Formatter, follow these steps:
 
 Feel free to customize the code according to your specific needs and project requirements.
 
+## Update History
+
+### Update V1.1 - 17-07-2023: 
+
+- Added error handling for cases where the code is already well-formatted using black.NothingChanged exception.
+- Implemented command-line argument parsing using argparse module for better user interaction.
+- Introduced a separate main function to encapsulate the main execution logic, improving code organization and reusability.
+
 ## Contributing
 
 Contributions to the AI-Driven Code Formatter project are welcome! If you would like to contribute, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
